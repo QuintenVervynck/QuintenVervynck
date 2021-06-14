@@ -5,9 +5,6 @@
 #### 📢 a native Dutch speaker, but I'm also fluent in English and able to speak French
 #### ⌛ spending my free time playing guitar, hanging out with friends and doing a variety of sports
 
-
-
-
 <!--
 **QuintenVervynck/QuintenVervynck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
