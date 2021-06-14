@@ -4,7 +4,7 @@
 #### 🌎 live in Belgium
 #### 📢 speak dutch natively, but I'm also fluent in English and able to speak French
 #### ⌛ spend my free time playing guitar, hanging out with friends and doing a variety of sports
-#### 🛠️ have the following coding languages and tools in my toolbox:
+#### 🛠️ have the following tools in my toolbox:
 ###### Git (github), Bash (Linux), SQL (Databases), Python, Java, Javascript, HTML, CSS, C, C++, haskell
 #### 🗺️ want to show you my [roadmap](roadmap.md)
 
