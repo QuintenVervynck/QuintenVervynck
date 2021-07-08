@@ -28,3 +28,6 @@ After a long summer vacation, started the first semester of the second year of m
 - Multimedia: about imaging, video and sound and ofcourse the compression / storage / display of them
 - Webdevelopment: thaught the fundamentals of the web (REST & API's), the goals (like rdf, and control of you own data) but also frameworks like React and Vue
 - Software Engineering Lab I: thaught us Kotlin and android development (we made an app)
+
+
+**_To Be Continued..._**
