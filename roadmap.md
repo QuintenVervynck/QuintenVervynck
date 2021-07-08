@@ -13,21 +13,21 @@ The first courses I had were:
 - Linear Algebra
 - Algorithms and Datastructures I
 - Object Oriënted Programming: this course thaugt the object-oriënted programming style, in Java; In this course we had to make a music application named [Accentor](project_descriptions/accentor.md)
-- Scripting Languages: this course thaught me Python and Javascript
+- Scripting Languages: this course taught me Python and Javascript
 
 After a long summer vacation, started the first semester of the second year of my bachelor:
 - Statistics and Probability
 - System Programming: a course about C and C++; in this course we made a 3D version of the video game Supaplex, it was called [Sysplex](project_descriptions/sysplex.md) 
 - Communication Networks: a course about networking
-- Functional Programming: this course thaught the functional programming style in Haskell
+- Functional Programming: this course taught the functional programming style in Haskell
 - Algorithms and Datastructures II: In this course we made an AI for a 3D version of the game Yavalath, it was called [Yavalath++](project_descriptions/yavalath.md)
 
 **2021** And of course after a first semester came a second semester:
 - Computer Architecture: about the architecture of a computer (things like how does a cpu work, how does ram-memory work,...)
 - Scientific Mathematics: how to calculate things in a pc, taking into account the architecture of the computer
 - Multimedia: about imaging, video and sound and of course the compression / storage / display of them
-- Webdevelopment: thaught the fundamentals of the web (REST & API's), the goals (like rdf, and control of you own data) but also frameworks like React and Vue
-- Software Engineering Lab I: thaught us Kotlin and android development (we made an app)
+- Webdevelopment: taught the fundamentals of the web (REST & API's), the goals (like rdf, and control of you own data) but also frameworks like React and Vue
+- Software Engineering Lab I: taught us Kotlin and android development (we made an app)
 
 
 **_To Be Continued..._**
