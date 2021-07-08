@@ -22,10 +22,10 @@ After a long summer vacation, started the first semester of the second year of m
 - Functional Programming: this course thaught the functional programming style in Haskell
 - Algorithms and Datastructures II: In this course we made an AI for a 3D version of the game Yavalath, it was called [Yavalath++](project_descriptions/yavalath.md)
 
-**2021** And ofcourse after a first semester came a second semester:
+**2021** And of course after a first semester came a second semester:
 - Computer Architecture: about the architecture of a computer (things like how does a cpu work, how does ram-memory work,...)
 - Scientific Mathematics: how to calculate things in a pc, taking into account the architecture of the computer
-- Multimedia: about imaging, video and sound and ofcourse the compression / storage / display of them
+- Multimedia: about imaging, video and sound and of course the compression / storage / display of them
 - Webdevelopment: thaught the fundamentals of the web (REST & API's), the goals (like rdf, and control of you own data) but also frameworks like React and Vue
 - Software Engineering Lab I: thaught us Kotlin and android development (we made an app)
 
