@@ -12,7 +12,7 @@ The first courses I had were:
 - Calculus
 - Linear Algebra
 - Algorithms and Datastructures I
-- Object Oriënted Programming: this course thaugt the object-oriënted programming style, in Java; In this course we had to make a music application named [Accentor](project_descriptions/accentor.md)
+- Object Oriënted Programming: this course taught the object-oriënted programming style, in Java; In this course we had to make a music application named [Accentor](project_descriptions/accentor.md)
 - Scripting Languages: this course taught me Python and Javascript
 
 After a long summer vacation, started the first semester of the second year of my bachelor:
