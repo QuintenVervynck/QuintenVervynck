@@ -1,6 +1,6 @@
 #  🗺️ Roadmap
 
-**2019** graduated secondary / high school & started at Ghent University (Computer Science)\
+### 2019, graduated secondary / high school & started at Ghent University (Computer Science)\
 The first courses I had were:
 - Discrete Mathematics
 - to Reason to Abstract and to Formulate (in dutch: redeneren, abstraheren en formuleren, this was simular to mathematical logics
@@ -27,7 +27,7 @@ After a long summer vacation, started the first semester of the second year of m
 - Scientific Mathematics: how to calculate things in a pc, taking into account the architecture of the computer
 - Multimedia: about imaging, video and sound and of course the compression / storage / display of them
 - Webdevelopment: taught the fundamentals of the web (REST & API's), the goals (like rdf, and control of you own data) but also frameworks like React and Vue
-- Software Engineering Lab I: taught us Kotlin and android development (we made an app)
+- Software Engineering Lab I: taught us Kotlin and android development, we made an entire app called [RecipEase](project_descriptions/recipease.md)
 
 
 **_To Be Continued..._**
