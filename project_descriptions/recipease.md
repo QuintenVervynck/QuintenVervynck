@@ -8,5 +8,5 @@ learned how to werk with a bigger team of developperls than 2. We also had to le
 
 ![infographic](recipease_fig_infographic.png)
 ![Login](recipease_fig_login.png)
-![Menu](recipease_fig_sidepanel.png)
+![Sidepanel](recipease_fig_sidepanel.png)
 ![Dishes](recipease_fig_dishes.png)
