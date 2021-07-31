@@ -5,3 +5,7 @@ The assignment of this project was "create an app". We were given (total) freedo
 ### Gained kills
 learned how to werk with a bigger team of developperls than 2. We also had to learn the android framework and Kotlin.
 
+
+![Login](recipease_fig_login)
+![Menu](recipease_fig_sidepanel)
+![Dishes](recipease_fig_dishes)
