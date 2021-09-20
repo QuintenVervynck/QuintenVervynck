@@ -1,8 +1,8 @@
 #  🗺️ Roadmap
 ### `overview`
-[2019](!2019)\
-[2020](!2020)\
-[2021](!2021)
+[2019](#2019)\
+[2020](#2020)\
+[2021](#2021)
 
 ### `2019`
 graduated secondary / high school & started at Ghent University (Computer Science)`
