@@ -15,7 +15,7 @@ The first courses I had were:
 - Databases
 
 ### `2020`
-Then came the second semester, in which I had the following courses:\
+Then came the second semester, in which I had the following courses:
 - Calculus
 - Linear Algebra
 - Algorithms and Datastructures I
