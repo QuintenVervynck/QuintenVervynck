@@ -8,7 +8,7 @@
 - graduated secondary / high school in `mathematics & science`
 - started at Ghent University `Computer Science`
 - Discrete Mathematics & mathematical logics
-- First steps into the world of Programming ![](https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white)
+- First steps into the world of Programming ![python](https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white)
 - Linux systems & bash scripting ![](https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=linux&logoColor=black)
 - `Databases` ![](https://img.shields.io/badge/PostgreSQL-316192?style=plastic&logo=postgresql&logoColor=white)
 
