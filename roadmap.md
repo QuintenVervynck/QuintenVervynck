@@ -5,7 +5,7 @@
 [2021](#2021)\
 [Now](#to-be-continued)
 
-##
+---
 
 ### _2019_
 - graduated secondary / high school 
@@ -15,7 +15,7 @@
 - Linux systems & bash scripting
 - Databases
 
-##
+---
 
 ### _2020_
 - Calculus & Linear Algebra
@@ -32,7 +32,7 @@
 - Algorithms and Datastructures II
   - In this course we made an AI for a 3D version of the game Yavalath, it was called [Yavalath++](project_descriptions/yavalath.md)
 
-##
+---
 
 ### _2021_
 - Scientific Mathematics (numerical mathematics)
@@ -43,6 +43,6 @@
 - Software Engineering Lab I: taught us Kotlin and android development
   - we made an entire app called [RecipEase](project_descriptions/recipease.md)
 
-##
+---
 
 ### _To be continued_
