@@ -8,26 +8,24 @@
 - graduated secondary / high school in `mathematics & science`
 - started at Ghent University `Computer Science`
 - Discrete Mathematics & mathematical logics
-- First steps into the world of Programming, in Java
-- Linux systems & bash scripting
-- `Databases`
+- First steps into the world of Programming ![](https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white)
+- Linux systems & bash scripting ![](https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=linux&logoColor=black)
+- `Databases` ![](https://img.shields.io/badge/PostgreSQL-316192?style=plastic&logo=postgresql&logoColor=white)
 
 ##
 
 ### _2020_
 - Calculus & Linear Algebra
-- Algorithms and Datastructures I
-- `Object Oriënted Programming`: this course taught the object-oriënted programming style, in Java
-  - In this course we had to make a music application named [Accentor](project_descriptions/accentor.md)
-- `Scripting Languages`: this course taught me Python and Javascript
+- Algorithms and Datastructures 1
+- `Object Oriënted Programming` ![](https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white) : in this course we had to make a music application named [Accentor](project_descriptions/accentor.md)
+- `Scripting Languages` ![](https://img.shields.io/badge/Python-FFD43B?style=plastic&logo=python&logoColor=blue) ![](https://img.shields.io/badge/JavaScript-323330?style=plastic&logo=javascript&logoColor=F7DF1E)
 - _started the second year of my bachelor degree_
 - Statistics and Probability: in this course we learned the language R
 - System Programming: a course about C and C++
   - in this course we made a 3D version of the video game Supaplex, it was called [Sysplex](project_descriptions/sysplex.md) 
 - `Communication Networks`: a course about networking
-- `Functional Programming`: this course taught the functional programming style in Haskell
-- Algorithms and Datastructures II
-  - In this course we made an AI for a 3D version of the game Yavalath, it was called [Yavalath++](project_descriptions/yavalath.md)
+- `Functional Programming` ![](https://img.shields.io/badge/Haskell-5D4F85?style=plastic&logo=haskell&logoColor=white) : this course taught the functional programming style in Haskell
+- Algorithms and Datastructures 2 ![](https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white) : in this course we made an AI for a 3D version of the game Yavalath, it was called [Yavalath++](project_descriptions/yavalath.md)
 
 ##
 
