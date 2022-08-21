@@ -20,7 +20,7 @@
 - `Object Oriënted Programming` ![](https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white) : in this course we had to make a music application named [Accentor](project_descriptions/accentor.md)
 - `Scripting Languages` ![](https://img.shields.io/badge/Python-FFD43B?style=plastic&logo=python&logoColor=blue) ![](https://img.shields.io/badge/JavaScript-323330?style=plastic&logo=javascript&logoColor=F7DF1E)
 - _started the second year of my bachelor degree_
-- Statistics and Probability ![](https://img.shields.io/badge/RStudio-75AADB?style=plastic&logo=RStudio&logoColor=white)
+- Statistics and Probability ![](https://img.shields.io/badge/R-276DC3?style=plastic&logo=r&logoColor=white)
 - System Programming: a course about C and C++
   - in this course we made a 3D version of the video game Supaplex, it was called [Sysplex](project_descriptions/sysplex.md) 
 - `Communication Networks`: a course about networking
