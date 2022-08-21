@@ -7,7 +7,7 @@
 
 ##
 
-### `2019`
+### _2019_
 - graduated secondary / high school 
 - started at Ghent University (Computer Science)`
 - Discrete Mathematics & mathematical logics
@@ -17,7 +17,7 @@
 
 ##
 
-### `2020`
+### _2020_
 - Calculus & Linear Algebra
 - Algorithms and Datastructures I
 - Object Oriënted Programming: this course taught the object-oriënted programming style, in Java
@@ -34,7 +34,7 @@
 
 ##
 
-### `2021`
+### _2021_
 - Scientific Mathematics (numerical mathematics)
 - Computer Architecture: about the architecture of a computer (things like how does a cpu work, how does ram-memory work,...)
 - Multimedia: about imaging, video and sound and of course the compression / storage / display of them
@@ -45,4 +45,4 @@
 
 ##
 
-### `To be continued`
+### _To be continued_
