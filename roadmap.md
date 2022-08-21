@@ -1,9 +1,7 @@
 #  🗺️ My Roadmap (Computer Science)
 ### `overview`
-[2019](#2019)\
-[2020](#2020)\
-[2021](#2021)\
-[Now](#to-be-continued)
+[2022](#2022) • [2021](#2021) • [2020](#2020) • [2019](#2019)
+
 
 ---
 
@@ -45,4 +43,8 @@
 
 ---
 
-### _To be continued_
+### _2022_
+
+---
+
+### 🛠 _The future is under construction_ 🛠
