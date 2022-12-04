@@ -47,7 +47,7 @@ def create_index():
             f.write(f"{year} \\\n")
             for dir in sorted(filter(ignore, os.listdir(f"./roadmap/{year}")), reverse=True):
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
-                    f.write(f"[`{dir}`]({f'roadmap/{year}/{dir}/REAMDE.md'.replace(' ' , '%20')}) \\\n")
+                    f.write(f"[`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}) \\\n")
                 else:
                     f.write(f"`{dir}` \\\n")
 
