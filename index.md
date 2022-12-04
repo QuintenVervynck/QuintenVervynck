@@ -1,6 +1,19 @@
 ## Roadmap
 `├───` `2022` \
 `├───` `2021` \
+ `├─` [`Dodona HTML & CSS judge`](roadmap/2021/13%20Dodona%20HTML%20&%20CSS%20judge/README.md)\
+ `├─` [`Bart KL`](roadmap/2021/12%20Bart%20KL/README.md)\
+ `├─` `Artificial intelligence`\
+ `├─` [`Huffman Coding`](roadmap/2021/10%20Huffman%20Coding/README.md)\
+ `├─` `Algorithms and Datastructures III`\
+ `├─` `Operating Systems`\
+ `├─` `Parallel Computer Systems`\
+ `├─` `Modelling and Simulating (Differential Mathematics)`\
+ `├─` [`Software Engineering Lab I: Recipease`](roadmap/2021/05%20Software%20Engineering%20Lab%20I:%20Recipease/README.md)\
+ `├─` `Webdevelopment`\
+ `├─` `Multimedia`\
+ `├─` `Computer Architecture`\
+ `└─` `Scientific Mathematics (Numerical Mathematics`\
 `├───` `2020` \
  `├─` [`Yavalath++`](roadmap/2020/14%20Yavalath++/README.md)\
  `├─` `Algorithms and Datastructures II`\
