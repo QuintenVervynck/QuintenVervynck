@@ -1,8 +1,8 @@
 Roadmap\
-`├──   ` `2022` \
-`├──   ` `2021` \
-`├──   ` `2020` \
-`├──   ` `2019` \
+`├──  ` `2022` \
+`├──  ` `2021` \
+`├──  ` `2020` \
+`├──  ` `2019` \
 `  ├── `[`08 Ugent Restaurant Database`](roadmap/2019/08%20Ugent%20Restaurant%20Database/README.md)\
 `  ├── ` `07 Databases`\
 `  ├── ` `06 Linux systems & bash scripting`\
