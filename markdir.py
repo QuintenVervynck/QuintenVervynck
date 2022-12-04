@@ -58,7 +58,7 @@ def create_index():
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
                     f.write(f"`{prefix}`[`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
                 else:  # the dir is a mention (don't want a link to it)
-                    f.write(f"`{prefix}``{dir}`{suffix}")
+                    f.write(f"`{prefix}` `{dir}`{suffix}")
 
 if __name__ == "__main__":
     create_index()
