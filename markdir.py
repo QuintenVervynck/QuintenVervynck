@@ -54,7 +54,7 @@ def create_index():
                 # if at the last dir
                 if j == len(dirs) - 1:
                     prefix = f"{space}`└─`"
-                    suffix = "\n"
+                    suffix = "\\n"
                 else: # if not
                     prefix = f"{space}`├─`"
                     suffix = "\\\n"
@@ -63,6 +63,7 @@ def create_index():
                     f.write(f"{prefix} [`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
                 else:  # the dir is a mention (don't want a link to it)
                     f.write(f"{prefix} `{dir}`{suffix}")
+        f.write(space)
 
 if __name__ == "__main__":
     create_index()
