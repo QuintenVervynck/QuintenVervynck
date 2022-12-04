@@ -60,7 +60,7 @@ def create_index():
                     suffix = "\\\n"
                 # if the dir is a post (has a README.md)
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
-                    f.write(f"{prefix} [`{dir[4:]}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
+                    f.write(f"{prefix} [`{dir[3:]}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
                 else:  # the dir is a mention (don't want a link to it)
                     f.write(f"{prefix} `{dir}`{suffix}")
         f.write(space)
