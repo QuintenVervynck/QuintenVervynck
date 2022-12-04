@@ -44,12 +44,13 @@ def create_index():
     with open("roadmap.md", "w") as f:
         f.write("# Roadmap\n\n")
         for year in sorted(os.listdir("./roadmap"), reverse=True):
-            f.write(f"{year}\n")
+            f.write(f"{year} \\ \n")
             for dir in sorted(filter(ignore, os.listdir(f"./roadmap/{year}")), reverse=True):
                 if os.path.exists(f"./roadmap/{year}/{dir}/README.md"):
-                    f.write(f"[`{dir}`]({f'./roadmap/{year}/{dir}/REAMDE.md'.replace(' ' , '%20')})\n")
+                    f.write(f"[`{dir}`]({f'./roadmap/{year}/{dir}/REAMDE.md'.replace(' ' , '%20')}) \\ \n")
                 else:
-                    f.write(f"`{dir}`\n")
+                    f.write(f"`{dir}` \\ \n")
 
 if __name__ == "__main__":
     create_index()
+
