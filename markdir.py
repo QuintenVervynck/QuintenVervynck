@@ -44,7 +44,7 @@ def create_index():
     with open("roadmap.md", "w") as f:
         f.write("Roadmap\\\n")
         for year in sorted(os.listdir("roadmap"), reverse=True):
-            f.write(f"`├─── ` `{year}` \\\n")
+            f.write(f"`├──   ` `{year}` \\\n")
             dirs = sorted(filter(ignore, os.listdir(f"roadmap/{year}")), reverse=True)
             for i, dir in enumerate(dirs):
                 # if at the last dir
