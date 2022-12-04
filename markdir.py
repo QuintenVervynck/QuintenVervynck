@@ -46,9 +46,9 @@ def create_index():
         years = sorted(os.listdir("roadmap"), reverse=True)
         for i, year in enumerate(years):
             if i == len(years) - 1:
-                f.write(f"`└──{space}{space}` `{year}` \\\n")
+                f.write(f"`└───{space}` `{year}` \\\n")
             else:
-                f.write(f"`├──{space}{space}` `{year}` \\\n")
+                f.write(f"`├───{space}` `{year}` \\\n")
             dirs = sorted(filter(ignore, os.listdir(f"roadmap/{year}")), reverse=True)
             for j, dir in enumerate(dirs):
                 # if at the last dir
