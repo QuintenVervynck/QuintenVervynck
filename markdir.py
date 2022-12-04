@@ -43,12 +43,16 @@ print(prevline)
 def create_index():
     with open("roadmap.md", "w") as f:
         f.write("Roadmap\\\n")
-        for year in sorted(os.listdir("roadmap"), reverse=True):
-            f.write(f"`├──{space}` `{year}` \\\n")
+        years = sorted(os.listdir("roadmap"), reverse=True)
+        for i, year in enumerate(years):
+            if i == len(years) - 1:
+                f.write(f"`└──{space}{space}` `{year}` \\\n")
+            else:
+                f.write(f"`├──{space}{space}` `{year}` \\\n")
             dirs = sorted(filter(ignore, os.listdir(f"roadmap/{year}")), reverse=True)
-            for i, dir in enumerate(dirs):
+            for j, dir in enumerate(dirs):
                 # if at the last dir
-                if i == len(dirs) - 1:
+                if j == len(dirs) - 1:
                     prefix = f"{space}└── "
                     suffix = "\n"
                 else: # if not
