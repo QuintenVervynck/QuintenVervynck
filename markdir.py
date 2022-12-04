@@ -44,15 +44,15 @@ def create_index():
     with open("roadmap.md", "w") as f:
         f.write("Roadmap\\\n")
         for year in sorted(os.listdir("roadmap"), reverse=True):
-            f.write(f"`{tee}{space}` `{year}` \\\n")
+            f.write(f"`├── ` `{year}` \\\n")
             dirs = sorted(filter(ignore, os.listdir(f"roadmap/{year}")), reverse=True)
             for i, dir in enumerate(dirs):
                 # if at the last dir
                 if i == len(dirs) - 1:
-                    prefix = f"{space}{last}"
+                    prefix = " └── "
                     suffix = "\n"
                 else: # if not
-                    prefix = f"{space}{tee}"
+                    prefix = " ├── "
                     suffix = "\\\n"
                 # if the dir is a post (has a README.md)
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
