@@ -49,10 +49,10 @@ def create_index():
             for i, dir in enumerate(dirs):
                 # if at the last dir
                 if i == len(dirs) - 1:
-                    prefix = " └── "
+                    prefix = f"{space}└── "
                     suffix = "\n"
                 else: # if not
-                    prefix = " ├── "
+                    prefix = f"{space}├── "
                     suffix = "\\\n"
                 # if the dir is a post (has a README.md)
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
