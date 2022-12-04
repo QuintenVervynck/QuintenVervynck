@@ -42,7 +42,7 @@ print(prevline)
 
 def create_index():
     with open("roadmap.md", "w") as f:
-        f.write("Roadmap\\\n")
+        f.write("## Roadmap\n")
         years = sorted(os.listdir("roadmap"), reverse=True)
         for i, year in enumerate(years):
             if i == len(years) - 1:
