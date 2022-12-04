@@ -8,7 +8,7 @@ def ignore(name):
     return name not in ignore_list and name.split(".")[-1] not in ignore_extensions
 
 # prefix components:
-space =  '  '
+space =  ' '
 branch = '│   '
 # pointers:
 tee =    '├── '
