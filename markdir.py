@@ -54,7 +54,7 @@ def create_index():
                 # if at the last dir
                 if j == len(dirs) - 1:
                     prefix = f"{space}`└─`"
-                    suffix = "\\n"
+                    suffix = "\\\n"
                 else: # if not
                     prefix = f"{space}`├─`"
                     suffix = "\\\n"

@@ -15,7 +15,8 @@
  `├─` `04 Object Oriënted Programming`\
  `├─` `03 Algorithms and Datastructures I`\
  `├─` `02 Linear Algebra`\
- `└─` `01 Calculus`\n`└───` `2019` \
+ `└─` `01 Calculus`\
+`└───` `2019` \
  `├─` [`08 Ugent Restaurant Database`](roadmap/2019/08%20Ugent%20Restaurant%20Database/README.md)\
  `├─` `07 Databases`\
  `├─` `06 Linux systems & bash scripting`\
@@ -23,4 +24,5 @@
  `├─` `04 Mathematical logic`\
  `├─` `03 Discrete Mathematics`\
  `├─` `02 Started at Ghent University, Bachelor in Computer Science`\
- `└─` `01 Graduated high school in mathematics & sciences`\n 
+ `└─` `01 Graduated high school in mathematics & sciences`\
+ 
