@@ -53,16 +53,16 @@ def create_index():
             for j, dir in enumerate(dirs):
                 # if at the last dir
                 if j == len(dirs) - 1:
-                    prefix = f"{space}└── "
+                    prefix = f"{space}`└── `"
                     suffix = "\n"
                 else: # if not
-                    prefix = f"{space}├── "
+                    prefix = f"{space}`├── `"
                     suffix = "\\\n"
                 # if the dir is a post (has a README.md)
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
-                    f.write(f"`{prefix}`[`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
+                    f.write(f"{prefix}[`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
                 else:  # the dir is a mention (don't want a link to it)
-                    f.write(f"`{prefix}` `{dir}`{suffix}")
+                    f.write(f"{prefix} `{dir}`{suffix}")
 
 if __name__ == "__main__":
     create_index()
