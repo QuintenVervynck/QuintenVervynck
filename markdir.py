@@ -42,14 +42,23 @@ print(prevline)
 
 def create_index():
     with open("roadmap.md", "w") as f:
-        f.write("# Roadmap\n\n")
+        f.write("Roadmap\\\n")
         for year in sorted(os.listdir("roadmap"), reverse=True):
-            f.write(f"{year} \\\n")
-            for dir in sorted(filter(ignore, os.listdir(f"./roadmap/{year}")), reverse=True):
+            f.write(f"{tee}{year} \\\n")
+            dirs = sorted(filter(ignore, os.listdir(f"roadmap/{year}")), reverse=True)
+            for i, dir in enumerate(dirs):
+                # if at the last dir
+                if i == len(dirs) - 1:
+                    prefix = {last}
+                    suffix = {"\n"}
+                else: # if not
+                    prefix = {tee}
+                    suffix = {"\\\n"}
+                # if the dir is a post (has a README.md)
                 if os.path.exists(f"roadmap/{year}/{dir}/README.md"):
-                    f.write(f"[`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}) \\\n")
-                else:
-                    f.write(f"`{dir}` \\\n")
+                    f.write(f"{prefix}[`{dir}`]({f'roadmap/{year}/{dir}/README.md'.replace(' ' , '%20')}){suffix}")
+                else:  # the dir is a mention (don't want a link to it)
+                    f.write(f"{prefix}`{dir}`{suffix}")
 
 if __name__ == "__main__":
     create_index()
