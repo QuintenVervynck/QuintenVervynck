@@ -52,7 +52,7 @@ Set n the maximum size of a character group. Add group of n characters.
  
 We now look at the graph below showing the compression for this heuristic.
 
-<img src="posts/2021/huffman_graph_add_max_english_text.png" alt="huffman_graph_add_max_english_text" style="width:70%;"/>
+<img src="huffman_graph_add_max_english_text.png" alt="huffman_graph_add_max_english_text" style="width:70%;"/>
 
 We see that the compression is highest for groups of 2 characters, if we allow our programme to use a maximum of 1 MiB of memory.
 
@@ -67,7 +67,7 @@ Repeat steps 1 and 2 until all characters are encoded
  
 We now look at the graph below that shows the compression for this heuristic.
 
-<img src="posts/2021/huffman_graph_add_random_english_text.png" alt="huffman_graph_add_random_english_text" style="width:70%;"/>
+<img src="huffman_graph_add_random_english_text.png" alt="huffman_graph_add_random_english_text" style="width:70%;"/>
 
 We see no difference for the best compression (group size 2 with maximum memory of 1 MiB). 
 
@@ -88,7 +88,7 @@ The bottom line is that more smaller groups will be added. In other words, a kin
  
 We now look at the graph below which shows the compression for this heuristic.
 
-<img src="posts/2021/huffman_graph_add_scaled_english_text.png" alt="huffman_graph_add_scaled_english_text" style="width:70%;"/>
+<img src="huffman_graph_add_scaled_english_text.png" alt="huffman_graph_add_scaled_english_text" style="width:70%;"/>
 
 We see a graph similar to that of the add random heuristic. Note that both for this heuristic, and the 2 previous ones, it is possible to make the file larger during encoding.
 
@@ -113,7 +113,7 @@ This is the combination of the heuristics find subset and add max.
 
 We immediately look at the results.
 
-<img src="posts/2021/huffman_graph_find_subset_add_max_english_text.png" alt="huffman_graph_find_subset_add_max_english_text" style="width:70%;"/>
+<img src="huffman_graph_find_subset_add_max_english_text.png" alt="huffman_graph_find_subset_add_max_english_text" style="width:70%;"/>
 
 There is no difference with the regular add max, this is because never other sizes of groups of characters will appear in the huffman tree. So the find subset has no effect here.
 
@@ -122,7 +122,7 @@ This is the combination of the heuristics find subset and add max.
 
 We immediately look at the results.
 
-<img src="posts/2021/huffman_graph_find_subset_add_random_english_text.png" alt="huffman_graph_find_subset_add_random_english_text" style="width:70%;"/>
+<img src="huffman_graph_find_subset_add_random_english_text.png" alt="huffman_graph_find_subset_add_random_english_text" style="width:70%;"/>
 
 We see here that all group sizes are equally or better than the adaptive huffman with 1 character per leaf. The best compression here is achieved with a group size of 4 (for group size 3, the compression is only 0.009 lower) with a maximum memory of 1 MiB). 
 
@@ -133,7 +133,7 @@ This is the combination of the heuristics find subset and add max.
 
 We immediately look at the results.
 
-<img src="posts/2021/huffman_graph_find_subset_add_scaled_english_text.png" alt="huffman_graph_find_subset_add_scaled_english_text" style="width:70%;"/>
+<img src="huffman_graph_find_subset_add_scaled_english_text.png" alt="huffman_graph_find_subset_add_scaled_english_text" style="width:70%;"/>
 
 We see a similar graph to find subset add random. But the maximum compression is now obtained with group size 3 and a maximum memory of 1 MiB
 
