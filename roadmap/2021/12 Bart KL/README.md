@@ -46,7 +46,7 @@ Our first network was a very simple Auto Encoder that we gradually extended with
 ## 3.2. Generation of spectrograms
 Much of the information that can be found online about generative AI models is about generating images. This data is 2-dimensional, unlike our musical data, which is 1-dimensional. So examples and reading material are scarce on this topic. The structure of generative networks for images is often not useful on our musical data.
 
-<img src="posts/2021/bartkl_spectrogram.png" alt="bartkl_spectrogram" style="width:50%;"/>
+<img src="bartkl_spectrogram.png" alt="bartkl_spectrogram" style="width:50%;"/>
 
 _An example of a spectogram_
 
